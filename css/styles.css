@@ -16,6 +16,7 @@ body {
     background-color: var(--primary-white-color);
     font-family: 'Roboto','Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     letter-spacing: 0.03em;
+    font-size: 14px;
 }
 
 .list {
@@ -47,7 +48,6 @@ body {
 /* nav */
 .link-nav {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -106,7 +106,6 @@ body {
 
 /* section */
 .feature .text {
-    font-size: 14px;
     line-height: 1.71;
 }
 .section-title {
@@ -120,7 +119,6 @@ body {
 .feature .title {
     color: var(--title-text-color);
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
@@ -153,7 +151,6 @@ body {
 .link-contact,
 .link-address {
     color: var(--secondary-contact-color);   
-    font-size: 14px;
     line-height: 1.71;
 }
 .link-contact:hover, 
@@ -186,6 +183,9 @@ body {
 .project-group {
     border: 1px solid var(--secondary-border-color);
     box-sizing: border-box;
+}
+.project-link {
+    color: var(--primary-text-color);
 }
 .project .title {
     color: var(--title-text-color);
